@@ -51,7 +51,7 @@ export type TProduct = {
   model: string;
   material: string;
   productType: string;
-  tag?: string;
+  tags: string[];
   productCode?: string;
   isDeleted?: boolean;
   reviews?: Treviews[];

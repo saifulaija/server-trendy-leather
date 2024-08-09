@@ -11,7 +11,7 @@ const router = express.Router();
 
 router.post(
   '/create-product',
-  auth(USER_ROLE.superAdmin),
+  // auth(USER_ROLE.superAdmin),
   validateRequest(ProductValidations.CreateProductValidationSchema),
   ProductControllers.createProduct,
 );
