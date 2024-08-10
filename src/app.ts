@@ -23,7 +23,7 @@ app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
 app.use('/api', router);
 
 app.get('/', (req: Request, res: Response) => {
-  res.send(' Trendy Leather DB Connected !!');
+  res.send('MediMart DB Connected !!');
 });
 
 app.use(globalErrorHandler);
